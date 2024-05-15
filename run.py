@@ -39,7 +39,6 @@ if __name__ == "__main__":
     else:
         from MLLM.IDEFICS import evaluate
 
-    tasks = ["misogyny", "shaming", "stereotype", "objectification", "violence"]
     args.__setattr__('img_path', PATH + Task2Data[args.task] + "/img/")
     args.__setattr__('label', PATH + Task2Data[args.task] + "/")
     output = evaluate(args)
