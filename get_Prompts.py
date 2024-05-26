@@ -54,8 +54,7 @@ def get_ques():
     return prompt_teps
 
 def get(task):
-    prompt = "Consider both the textual content and the image in the meme comprehensively and  \
-                 answer the following question. Please only output options without giving reasons. "
+    prompt = "Consider both the textual content and the image in the meme comprehensively and answer the following question. Please only output options without giving reasons. "
     prompt_teps = get_ques()
 
     for i in range(len(prompt_teps)):
