@@ -2,7 +2,7 @@
 Evaluation of Multi-modal Large Language Models <br />
 ## LVLMs 
 | Rank |                            Model                             |                           Version                            |    VanillaEval    |  Triple-check   |
-| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: |:---------: |
 |  1   | **[InternLM-XComposer2-VL](https://github.com/InternLM/InternLM-XComposer)** | **[InternLM2-7B](https://github.com/InternLM/InternLM-XComposer)** | **57.88** | **41.59** |
 |  2   |      [mPLUG-Owl2](https://arxiv.org/pdf/2311.04257.pdf)      | [LLaMA2-7B](https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2) |   49   |   7.19   |
 |  3   |  [LLaVA](https://arxiv.org/pdf/2304.08485.pdf)         |      [Vicuna-13B](https://github.com/haotian-liu/LLaVA)      |   42.97   |  19.72   |
