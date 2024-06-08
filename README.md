@@ -22,8 +22,7 @@ Evaluation of Multi-modal Large Language Models <br />
 <br />
 
 ## Datasets
-
-*[Our Dataset](https://drive.google.com/file/d/17MI7m0JO0xOyIQu1IYwI5RNqSI2shrh6/view?usp=sharing)*. <br />
+You can download our evaluation dataset *[here](https://drive.google.com/file/d/17MI7m0JO0xOyIQu1IYwI5RNqSI2shrh6/view?usp=sharing)*. 
 
 ## Run
 ```
