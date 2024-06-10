@@ -1,4 +1,4 @@
-# MLLM
+# VALUE-Bench
 Evaluation of Multi-modal Large Language Models <br />
 ## LVLMs 
 | Rank |                            Model                             |                           Version                            |    VanillaEval    |  Triple-check   |
