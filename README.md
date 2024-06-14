@@ -21,10 +21,10 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
 ## Tasks
 <table>
     <tr align="center">
-        <td><b>Dataset</b>b></td>
-        <td><b>Task</b>b></td>
-        <td><b>#Pos</b>b></td>
-        <td><b>#Neg</b>b></td>
+        <td><b>Dataset</b></td>
+        <td><b>Task</b></td>
+        <td><b>#Pos</b></td>
+        <td><b>#Neg</b></td>
     </tr>
     <tr align="center">
         <td>ELEMENT</td>
@@ -72,7 +72,7 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
         <td>500</td>
         <td>500</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>Stereotype</td>
         <td>650</td>
         <td>350</td>
