@@ -1,7 +1,7 @@
 import argparse
 from pre_check import check
 PATH = "Datasets/"
-Task2Data = {"unethical":"ELEMENT","harmful(CN)":"CHMEMES","harmful":"Harm-C","hateful":"HMC","offensive":"MultiOFF","misogyny":"Misogyny","shaming":"Misogyny","stereotype":"Misogyny","objectification":"Misogyny","violence":"Misogyny"}
+Task2Data = {"unethical":"ELEMENT","harmful-zh":"CHMEMES","harmful":"Harm-C","hateful":"HMC","offensive":"MultiOFF","misogyny":"Misogyny","shaming":"Misogyny","stereotype":"Misogyny","objectification":"Misogyny","violence":"Misogyny"}
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="Qwen-VL")
@@ -38,7 +38,7 @@ if __name__ == "__main__":
         from MLLM.CogVLM import evaluate
     else:
         from MLLM.IDEFICS import evaluate
-
+    args.__setattr__('task', args.task.lower())
     args.__setattr__('img_path', PATH + Task2Data[args.task] + "/img/")
     args.__setattr__('label', PATH + Task2Data[args.task] + "/")
     output = evaluate(args)
