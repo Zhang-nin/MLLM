@@ -1,5 +1,5 @@
 # VALUE-Bench
-Evaluation of Multi-modal Large Language Models <br />
+This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Large Vision-Language Models on Multimodal Ethical Understanding". <br />
 ## LVLMs 
 | Rank |                            Model                             |                           Version                            |    VanillaEval    |  Triple-check   |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: |:---------: |
@@ -19,7 +19,8 @@ Evaluation of Multi-modal Large Language Models <br />
 |  14  |      [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     |    [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     |   29.39    |  1.67   |
 |  15  |        [mPLUG-Owl](https://arxiv.org/pdf/2304.14178.pdf)       | [LLaMA-7B](https://huggingface.co/MAGAer13/mplug-owl-llama-7b) |   26.72    |  0.1   |
 ## Tasks
-<br />
+| Dataset | Task | #Pos | #Neg |
+| :------: | :------: | :------: | :------: |
 
 ## Datasets
 You can download our evaluation dataset *[here](https://drive.google.com/file/d/17MI7m0JO0xOyIQu1IYwI5RNqSI2shrh6/view?usp=sharing)*. 
