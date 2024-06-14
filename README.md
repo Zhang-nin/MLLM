@@ -19,7 +19,7 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
 |  14  |      [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     |    [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     |   29.39    |  1.67   |
 |  15  |        [mPLUG-Owl](https://arxiv.org/pdf/2304.14178.pdf)       | [LLaMA-7B](https://huggingface.co/MAGAer13/mplug-owl-llama-7b) |   26.72    |  0.1   |
 ## Tasks
-<table style="text-align:center">
+<table align="center">
     <tr style="text-align:center">
         <td>Dataset</td>
         <td>Task</td>
