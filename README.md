@@ -19,14 +19,7 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
 |  14  |      [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     |    [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     |   29.39    |  1.67   |
 |  15  |        [mPLUG-Owl](https://arxiv.org/pdf/2304.14178.pdf)       | [LLaMA-7B](https://huggingface.co/MAGAer13/mplug-owl-llama-7b) |   26.72    |  0.1   |
 ## Tasks
-| Dataset | Task | #Pos | #Neg |
-| :------: | :------: | :------: | :------: |
-| ELEMENT | Unethical | 791 | 378 |
-| CHMEMES | Harmful-ZH | 451 | 549 |
-| Harm-C | Harmful | 232 | 122 |
-| HMC | Hateful | 500 | 500 |
-| MultiOFF | Offensive | 91 | 58 |
-<table>
+<table text-align="center">
     <tr>
         <td>Dataset</td>
         <td>Task</td>
@@ -90,6 +83,7 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
         <td>348</td>
     </tr>
 </table>
+
 ## Datasets
 You can download our evaluation dataset *[here](https://drive.google.com/file/d/17MI7m0JO0xOyIQu1IYwI5RNqSI2shrh6/view?usp=sharing)*. 
 
