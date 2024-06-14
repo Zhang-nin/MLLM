@@ -21,53 +21,53 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
 ## Tasks
 <table>
     <tr align="center">
-        <td>Dataset</td>
-        <td>Task</td>
-        <td>#Pos</td>
-        <td>#Neg</td>
+        <td><b>Dataset</b>b></td>
+        <td><b>Task</b>b></td>
+        <td><b>#Pos</b>b></td>
+        <td><b>#Neg</b>b></td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>ELEMENT</td>
         <td>Unethical</td>
         <td>791</td>
         <td>378</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>CHMEMES</td>
         <td>Harmful-ZH</td>
         <td>451</td>
         <td>549</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>Harm-C</td>
         <td>Harmful</td>
         <td>232</td>
         <td>122</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>HMC</td>
         <td>Hateful</td>
         <td>500</td>
         <td>500</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>MultiOFF</td>
         <td>Offensive</td>
         <td>91</td>
         <td>58</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td rowspan="5">Misogyny</td>
         <td>Shaming</td>
         <td>854</td>
         <td>146</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>Violence</td>
         <td>847</td>
         <td>153</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>Misogyny</td>
         <td>500</td>
         <td>500</td>
@@ -77,7 +77,7 @@ This is the code for "VALUE-Bench: A Comprehensive Benchmark for Evaluation Larg
         <td>650</td>
         <td>350</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>Objectification</td>
         <td>652</td>
         <td>348</td>
